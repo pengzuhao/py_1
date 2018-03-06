@@ -19,6 +19,6 @@ from appone import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    # url(r'^ind', views.ind),
-    url(r'^index', views.index),
+    url(r'^ind/', views.ind),
+    url(r'^index/', views.index),
 ]

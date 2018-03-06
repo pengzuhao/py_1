@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/projectone/.idea/projectone.iml" filepath="$PROJECT_DIR$/projectone/.idea/projectone.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pydevelop.iml" filepath="$PROJECT_DIR$/.idea/pydevelop.iml" />
     </modules>
   </component>

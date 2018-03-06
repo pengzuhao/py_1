@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
@@ -7,4 +8,7 @@
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="2" />
   </component>
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.14 (C:\Python27\python.exe)" project-jdk-type="Python SDK" />
+>>>>>>> e8aa3dfe91406b99b1ae518548c8532b4019955a
 </project>

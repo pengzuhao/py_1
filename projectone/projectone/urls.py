@@ -16,9 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from appone import views
+from apptwo import viewstwo
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ind/', views.ind),
     url(r'^index/', views.index),
+    url(r'^indtwo/', viewstwo.indextwo),
+    url(r'^indextwo/', viewstwo.indextwo),
 ]

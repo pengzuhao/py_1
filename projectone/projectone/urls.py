@@ -19,7 +19,7 @@ from appone import views
 from apptwo import viewstwo
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin', admin.site.urls),
     url(r'^ind/', views.ind),
     url(r'^index/', views.index),
     url(r'^indtwo/', viewstwo.indextwo),

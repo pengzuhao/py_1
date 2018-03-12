@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -32,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap_admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'appone',
     'apptwo',
+    'sockalert',
 ]
 
 MIDDLEWARE = [
@@ -85,11 +86,19 @@ DATABASES = {
     'twodb': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Djangodb',
-        'HOST':'172.17.21.108',
-        'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'1qaz@WSX',
-    }
+        'HOST': '172.17.21.108',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': '1qaz@WSX',
+    },
+    'sockas': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'sockdb',
+        'HOST': '172.17.21.108',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': '1qaz@WSX',
+    },
 }
 
 DATABASE_ROUTERS = ['projectone.database_router.DatabaseAppsRouter']
@@ -97,6 +106,7 @@ DATABASE_ROUTERS = ['projectone.database_router.DatabaseAppsRouter']
 DATABASE_APPS_MAPPING = {
     'appone': 'default',
     'apptwo': 'twodb',
+    'sockalert': 'sockas'
 }
 
 
@@ -122,9 +132,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'en-US'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

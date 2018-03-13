@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from appone import views
 from apptwo import viewstwo
+from sockalert import getdatas
 
 urlpatterns = [
     url(r'^admin', admin.site.urls),
@@ -24,4 +25,5 @@ urlpatterns = [
     url(r'^index/', views.index),
     url(r'^indtwo/', viewstwo.indextwo),
     url(r'^indextwo/', viewstwo.indextwo),
+    url(r'^selectall', getdatas.select_all)
 ]

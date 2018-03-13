@@ -36,3 +36,5 @@ class disp(admin.ModelAdmin):
     date_hierarchy = 'crttime'  # 详细时间分层筛选　
 
 
+admin.site.site_title = '益杏运维'
+admin.site.site_header = '业务报警系统'

@@ -18,6 +18,8 @@ from django.contrib import admin
 from appone import views
 from apptwo import viewstwo
 from sockalert import getdatas
+from apscheduler.scheduler import Scheduler
+from sockalert.crontest import ctbtest
 
 urlpatterns = [
     url(r'^admin', admin.site.urls),
@@ -27,3 +29,14 @@ urlpatterns = [
     url(r'^indextwo/', viewstwo.indextwo),
     url(r'^selectall', getdatas.select_all)
 ]
+
+
+sched = Scheduler()
+
+
+@sched.interval_schedule(seconds=2)
+def myctb():
+    ctbtest()
+
+
+sched.start()

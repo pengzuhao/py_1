@@ -25,7 +25,7 @@ SECRET_KEY = '31dk%di14j3pr__7&n-(114s*o_abzx5*dyo$e1vzh^yu%_v44'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -153,4 +153,3 @@ STATICFILES_DIRS=(
 )
 
 APPEND_SLASH=False
-

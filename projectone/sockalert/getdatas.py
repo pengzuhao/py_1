@@ -18,9 +18,12 @@ def select_all(request):
     # 数据排序
     # yx_api.objects.order_by("id")
     # 上面的方法可以连锁使用
-    yx_api.objects.filter(name="runoob").order_by("id")
+    # yx_api.objects.filter(url='https://a.com').order_by("id")
     for var in list:
         response += unicode(var.id) + unicode(', ') + var.url + ' ' + '<br>'
+        a = str(var.url)
+        print type(a), a
+
     response = response
     return HttpResponse('<p>' + response + '</p>')
 

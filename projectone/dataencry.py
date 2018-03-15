@@ -39,10 +39,4 @@ class crypts():
 
 
 if __name__ == '__main__':
-    keyone = 'aaaaaaaaaaaaaaaa'
-    keytwo = b'0000000000000000'
-    string = 'sockdb'
-    ins = crypts()
-    print (ins.encrypt(keyone, keytwo, string))
-    enstr = 'e35f18f432f2e0fb849eaf59b5c5d272'
-    print (ins.decrypt(keyone, keytwo, enstr))
+    pass

@@ -21,9 +21,6 @@ def select_all(request):
     # yx_api.objects.filter(url='https://a.com').order_by("id")
     for var in list:
         response += unicode(var.id) + unicode(', ') + var.url + ' ' + '<br>'
-        a = str(var.url)
-        print type(a), a
-
     response = response
     return HttpResponse('<p>' + response + '</p>')
 

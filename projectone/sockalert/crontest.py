@@ -10,7 +10,6 @@ def ctbtest():
     string = str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))) + '\n'
     data.write(string)
     data.close()
-    print (data)
     return data
 
 

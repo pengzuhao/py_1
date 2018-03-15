@@ -11,6 +11,22 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from dataencry import crypts
+ins = crypts()
+keyone = os.environ.get('keyone')
+keytwo = os.environ.get('keytwo')
+dbname = os.environ.get('dbname')
+dbhost = os.environ.get('dbhost')
+dbport = os.environ.get('dbport')
+dbuser = os.environ.get('dbuser')
+dbpwd = os.environ.get('dbpwd')
+
+dbname = ins.decrypt(keyone, keytwo, dbname)
+dbhost = ins.decrypt(keyone, keytwo, dbhost)
+dbport = ins.decrypt(keyone, keytwo, dbport)
+dbuser = ins.decrypt(keyone, keytwo, dbuser)
+dbpwd = ins.decrypt(keyone, keytwo, dbpwd)
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -86,18 +102,18 @@ DATABASES = {
     'twodb': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Djangodb',
-        'HOST': '172.17.21.108',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '1qaz@WSX',
+        'HOST': dbhost,
+        'PORT': dbport,
+        'USER': dbuser,
+        'PASSWORD': dbpwd,
     },
     'sockas': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sockdb',
-        'HOST': '172.17.21.108',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '1qaz@WSX',
+        'NAME': dbname,
+        'HOST': dbhost,
+        'PORT': dbport,
+        'USER': dbuser,
+        'PASSWORD': dbpwd,
     },
 }
 

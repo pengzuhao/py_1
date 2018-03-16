@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8030d66-ab0d-4c59-858c-0762664de166" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/db.sqlite3" afterPath="$PROJECT_DIR$/projectone/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctb.log" afterPath="$PROJECT_DIR$/ctb.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/dataencry.py" afterPath="$PROJECT_DIR$/projectone/dataencry.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/projectone/settings.py" afterPath="$PROJECT_DIR$/projectone/projectone/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/projectone/urls.py" afterPath="$PROJECT_DIR$/projectone/projectone/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/sockalert/crontest.py" afterPath="$PROJECT_DIR$/projectone/sockalert/crontest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/sockalert/getdatas.py" afterPath="$PROJECT_DIR$/projectone/sockalert/getdatas.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,8 +87,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -136,6 +128,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info target-remote="github" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -501,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521181280671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="3.13-2">
+      <created>1521191823450</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521191823450</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -937,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
       </provider>

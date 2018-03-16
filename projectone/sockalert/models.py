@@ -28,3 +28,15 @@ class yx_sp(models.Model):
         app_label = 'sockalert'
 
 
+class mailusers(models.Model):
+    id = models.AutoField('ID', primary_key=True, auto_created=True)
+    mail = models.CharField('MailAddr', max_length=255)
+    GENDER_CHOICE = (
+        (u'E', u'Enable'),
+        (u'D', u'Disable'),
+    )
+    status = models.CharField('Status', max_length=20, choices=GENDER_CHOICE)
+
+    class Meta:
+        unique_together = ('mail',)
+        app_label = 'sockalert'

@@ -36,5 +36,15 @@ class disp(admin.ModelAdmin):
     date_hierarchy = 'crttime'  # 详细时间分层筛选　
 
 
+@admin.register(mailusers)
+class dimail(admin.ModelAdmin):
+    list_display = ('id', 'mail', 'status')
+    list_per_page = 20
+    ordering = ('id',)
+    list_editable = ['status']
+    list_filter = ('mail',)  # 过滤器
+    search_fields = ('mail',)  # 搜索字段
+
+
 admin.site.site_title = '益杏运维'
 admin.site.site_header = '业务报警系统'

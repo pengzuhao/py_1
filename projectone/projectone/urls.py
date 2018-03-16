@@ -19,7 +19,7 @@ from appone import views
 from apptwo import viewstwo
 from sockalert import getdatas
 from apscheduler.scheduler import Scheduler
-from sockalert.crontest import ctbtest
+from sockalert.crontest import *
 
 urlpatterns = [
     url(r'^admin', admin.site.urls),
@@ -37,6 +37,11 @@ sched = Scheduler()
 @sched.interval_schedule(seconds=2)
 def myctb():
     ctbtest()
+
+
+# @sched.interval_schedule(seconds=2)
+# def myctb_2():
+#     getreqstatus()
 
 
 sched.start()

@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding:utf8 -*-
 
+import os
 from binascii import a2b_hex, b2a_hex
 from Crypto.Cipher import AES
 
@@ -9,6 +10,8 @@ class crypts():
     def __init__(self):
         self.mode = AES.MODE_CBC
         self.length = 16
+        self.keyone = os.environ.get('keyone')
+        self.keytwo = os.environ.get('keytwo')
 
     def exchangeencrypt(self, string):
         count = len(string)
@@ -24,15 +27,15 @@ class crypts():
             text = string
             return text
 
-    def encrypt(self, keyone, keytwo, string):
+    def encrypt(self, string):
         ins = crypts()
-        ca = AES.new(keyone, self.mode, keytwo)
+        ca = AES.new(self.keyone, self.mode, self.keytwo)
         post = ca.encrypt(ins.exchangeencrypt(string))
         b_post = b2a_hex(post)
         return b_post
 
-    def decrypt(self, keyone, keytwo, string):
-        ca = AES.new(keyone, self.mode, keytwo)
+    def decrypt(self, string):
+        ca = AES.new(self.keyone, self.mode, self.keytwo)
         pre = ca.decrypt(a2b_hex(string))
         a_pre = pre.rstrip('\0')
         return a_pre

@@ -3,6 +3,8 @@ from __future__ import unicode_literals
 from models import yx_api, yx_sp
 from django.http import HttpResponse
 import time
+
+
 # Create your tests here.
 
 
@@ -19,6 +21,7 @@ def select_all(request):
     # yx_api.objects.order_by("id")
     # 上面的方法可以连锁使用
     # yx_api.objects.filter(url='https://a.com').order_by("id")
+
     for var in list:
         response += unicode(var.id) + unicode(', ') + var.url + ' ' + '<br>'
     response = response

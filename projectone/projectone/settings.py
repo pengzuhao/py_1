@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# --*-- coding:utf-8 --*--
+
 """
 Django settings for projectone project.
 
@@ -21,12 +24,23 @@ dbport = os.environ.get('dbport')
 dbuser = os.environ.get('dbuser')
 dbpwd = os.environ.get('dbpwd')
 
-dbname = ins.decrypt(keyone, keytwo, dbname)
-dbhost = ins.decrypt(keyone, keytwo, dbhost)
-dbport = ins.decrypt(keyone, keytwo, dbport)
-dbuser = ins.decrypt(keyone, keytwo, dbuser)
-dbpwd = ins.decrypt(keyone, keytwo, dbpwd)
+dbname = ins.decrypt(dbname)
+dbhost = ins.decrypt(dbhost)
+dbport = ins.decrypt(dbport)
+dbuser = ins.decrypt(dbuser)
+dbpwd = ins.decrypt(dbpwd)
 
+mailfromuser = os.environ.get('mailfromuser')
+smtpserver = os.environ.get('smtpserver')
+smtpport = os.environ.get('smtpport')
+smtppwd = os.environ.get('smtppwd')
+smtpadmin = os.environ.get('smtpadmin')
+
+mailfromuser = ins.decrypt(mailfromuser)
+smtpserver = ins.decrypt(smtpserver)
+smtpport = ins.decrypt(smtpport)
+smtppwd = ins.decrypt(smtppwd)
+smtpadmin = ins.decrypt(smtpadmin)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -168,4 +182,13 @@ STATICFILES_DIRS=(
     os.path.join(BASE_DIR, 'static'),
 )
 
-APPEND_SLASH=False
+APPEND_SLASH = False
+
+
+EMAIL_HOST = smtpserver                  # SMTP地址
+EMAIL_PORT = smtpport                    # SMTP端口
+EMAIL_HOST_USER = mailfromuser           # 我自己的邮箱
+EMAIL_HOST_PASSWORD = smtppwd            # 我的邮箱密码
+EMAIL_SUBJECT_PREFIX = u'益杏业务接口报警'    # 为邮件Subject-line前缀,默认是'[django]'
+EMAIL_USE_TLS = False                       # 与SMTP服务器通信时，是否启动TLS链接(安全链接)。默认是false
+SERVER_EMAIL = os.environ.get('smtpadmin')  # 管理员站点

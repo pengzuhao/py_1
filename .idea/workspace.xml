@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8030d66-ab0d-4c59-858c-0762664de166" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projectone/sockalert/sockmail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctb.log" afterPath="$PROJECT_DIR$/ctb.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/projectone/urls.py" afterPath="$PROJECT_DIR$/projectone/projectone/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectone/sockalert/crontest.py" afterPath="$PROJECT_DIR$/projectone/sockalert/crontest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,8 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
-    <option name="y" value="26" />
+    <option name="x" value="248" />
+    <option name="y" value="30" />
     <option name="width" value="1437" />
     <option name="height" value="1001" />
   </component>
@@ -506,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521191985651</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="3.20">
+      <created>1521513937081</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1521513937081</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="26" width="1437" height="1001" extended-state="0" />
+    <frame x="248" y="30" width="1437" height="1001" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26585367" sideWeight="0.43138635" order="6" side_tool="true" content_ui="tabs" />
@@ -547,7 +549,8 @@
     <MESSAGE value="3.12" />
     <MESSAGE value="3.13" />
     <MESSAGE value="3.13-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.13-2" />
+    <MESSAGE value="3.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

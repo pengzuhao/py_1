@@ -3,15 +3,18 @@
 
 import time
 import requests
+import os
 from models import *
 from sockmail import djmail
 import logging
 logger = logging.getLogger('django')
+from projectone import settings
 
 
 def ctbtest():
     try:
-        data = open('ctb.log', 'a')
+        newpath = settings.BASE_DIR
+        data = open(os.path.join(newpath, 'projectone/logs/admin.log'), 'a')
         string = str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))) + '\n'
         data.write(string)
         data.close()

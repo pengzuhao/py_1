@@ -2,7 +2,8 @@
 # -*- coding:utf8 -*-
 
 
-import requests, os
+import requests
+import os
 
 
 def a():

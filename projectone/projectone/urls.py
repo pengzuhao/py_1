@@ -34,14 +34,10 @@ urlpatterns = [
 sched = Scheduler()
 
 
-@sched.interval_schedule(seconds=2)
+@sched.interval_schedule(seconds=5)
 def myctb():
     ctbtest()
-
-
-# @sched.interval_schedule(seconds=2)
-# def myctb_2():
-#     getreqstatus()
+    getreqstatus()
 
 
 sched.start()

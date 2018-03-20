@@ -1,25 +1,10 @@
 #!/usr/bin/python
 # -*- coding:utf8 -*-
 
-import os
 import time
 import requests
 from models import *
-from django.core.mail import send_mail, send_mass_mail
-from dataencry import crypts
-
-
-def djmail(userlist, msg):
-    ins = crypts()
-    bstr = os.environ.get('mailfromuser')
-    mailfromuser = ins.decrypt(bstr)
-    send_mail(
-        u'益杏业务接口报警',
-        msg,
-        mailfromuser,
-        userlist,
-        fail_silently=False,
-    )
+from sockmail import djmail
 
 
 def ctbtest():
@@ -32,6 +17,17 @@ def ctbtest():
 
 def getreqstatus():
     list_api = yx_api.objects.all()
+    list_users = mailusers.objects.all()
+    mailuserlist = []
+    for var in list_users:
+        muser = str(var.mail)
+        userstatus = str(var.status)
+        if userstatus == 'E':
+            mailuserlist.append(muser)
+        elif userstatus == 'D':
+            pass
+        else:
+            print ('Get UserStatus Failed')
     for var in list_api:
         url = var.url
         data = var.data

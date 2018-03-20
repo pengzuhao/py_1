@@ -15,6 +15,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 from dataencry import crypts
+
 ins = crypts()
 keyone = os.environ.get('keyone')
 keytwo = os.environ.get('keytwo')
@@ -23,19 +24,16 @@ dbhost = os.environ.get('dbhost')
 dbport = os.environ.get('dbport')
 dbuser = os.environ.get('dbuser')
 dbpwd = os.environ.get('dbpwd')
-
 dbname = ins.decrypt(dbname)
 dbhost = ins.decrypt(dbhost)
 dbport = ins.decrypt(dbport)
 dbuser = ins.decrypt(dbuser)
 dbpwd = ins.decrypt(dbpwd)
-
 mailfromuser = os.environ.get('mailfromuser')
 smtpserver = os.environ.get('smtpserver')
 smtpport = os.environ.get('smtpport')
 smtppwd = os.environ.get('smtppwd')
 smtpadmin = os.environ.get('smtpadmin')
-
 mailfromuser = ins.decrypt(mailfromuser)
 smtpserver = ins.decrypt(smtpserver)
 smtpport = ins.decrypt(smtpport)
@@ -45,7 +43,6 @@ smtpadmin = ins.decrypt(smtpadmin)
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
@@ -53,10 +50,57 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '31dk%di14j3pr__7&n-(114s*o_abzx5*dyo$e1vzh^yu%_v44'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'filters': {
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },  # 针对 DEBUG = True 的情况
+    },
+    'formatters': {
+        'standard': {
+            'format': '%(levelname)s %(asctime)s %(pathname)s %(filename)s %(module)s %(funcName)s %(lineno)d: %(message)s'
+        },  # 对日志信息进行格式化，每个字段对应了日志格式中的一个字段，更多字段参考官网文档，我认为这些字段比较合适，输出类似于下面的内容
 
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler',
+             'formatter': 'standard'
+        },
+        'file_handler': {
+             'level': 'DEBUG',
+             'class': 'logging.handlers.TimedRotatingFileHandler',
+             'filename': os.path.join(BASE_DIR, 'projectone/logs/admin.log'),
+             'formatter': 'standard'
+        },  # 用于文件输出
+        'console': {
+            'level': 'INFO',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard'
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file_handler', 'console'],
+            'level': 'INFO',
+            'propagate': True   # 是否继承父类的log信息
+        },  # handlers 来自于上面的 handlers 定义的内容
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+    }
+}
+
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -183,7 +227,6 @@ STATICFILES_DIRS=(
 )
 
 APPEND_SLASH = False
-
 
 EMAIL_HOST = smtpserver                  # SMTP地址
 EMAIL_PORT = smtpport                    # SMTP端口

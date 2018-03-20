@@ -1,0 +1,309 @@
+DEBUG 2018-03-20 15:37:48,966 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:37:48,977 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.012) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:37:48,986 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:37:48,986 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:37:49,256 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:37:49,273 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:37:54,171 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:37:54,173 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:37:54,173 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:37:54,174 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:00,631 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:00,634 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:00,635 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:00,640 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:04,549 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:04,549 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:04,549 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:04,552 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:09,176 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:09,177 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:09,177 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:09,178 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:14,173 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:14,174 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:14,174 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:14,176 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:19,177 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:19,177 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:19,178 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:19,180 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:31,720 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:31,720 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:38:31,726 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:31,726 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:38:31,921 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:38:31,924 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:38:36,868 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:36,869 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:36,871 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:36,872 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:41,859 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:41,861 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:41,861 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:41,862 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:51,867 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:51,868 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:51,868 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:51,871 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:38:56,864 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:38:56,865 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:38:56,865 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:38:56,868 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:40:35,397 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:40:35,398 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:40:35,401 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:40:35,404 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:40:35,565 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:40:35,566 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:40:40,538 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:40:40,539 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:40:40,540 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:40:40,545 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:40:45,526 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:40:45,528 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:40:45,528 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:40:45,529 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:40:50,526 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:40:50,526 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+ERROR 2018-03-20 15:40:50,528 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:40:50,529 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:04,924 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:04,926 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:41:04,930 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:04,930 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:41:05,078 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:41:05,081 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:41:10,059 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:10,063 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.003) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:10,065 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:10,069 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:15,048 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:15,049 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:15,049 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:15,051 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:20,055 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:20,058 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:20,059 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:20,062 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:25,052 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:25,053 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:25,053 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:25,055 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:30,049 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:30,052 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:30,052 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:30,055 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:35,046 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:35,048 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:35,049 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:35,049 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:40,046 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:40,048 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:40,049 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:40,049 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:45,055 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:45,056 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:45,056 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:45,059 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:41:55,046 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:41:55,048 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:41:55,048 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:41:55,049 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:42:00,046 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:00,048 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:42:00,048 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:42:00,049 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:42:05,045 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:05,046 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:42:05,046 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:42:05,048 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:42:23,315 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:23,319 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.003) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:42:23,326 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:23,328 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:42:23,683 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:42:23,690 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:42:28,619 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:28,621 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:42:28,621 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:42:28,624 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:42:33,618 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:33,618 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:42:33,618 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:42:33,621 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:42:43,618 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:43,618 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:42:43,619 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:42:43,621 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:42:57,667 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:57,668 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:42:57,676 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:42:57,677 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:42:57,868 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:42:57,871 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:43:02,819 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:02,822 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+DEBUG 2018-03-20 15:43:02,822 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:43:02,831 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.006) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:43:12,805 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:12,805 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+DEBUG 2018-03-20 15:43:12,806 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:43:12,809 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:43:29,115 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:29,115 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:43:29,121 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:29,121 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:43:29,328 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:43:29,329 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:43:34,286 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:34,288 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+WARNING 2018-03-20 15:43:34,289 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:43:34,292 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:43:39,282 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:39,286 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+WARNING 2018-03-20 15:43:39,286 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:43:39,289 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:43:44,279 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:44,280 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+WARNING 2018-03-20 15:43:44,282 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:43:44,283 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:43:49,278 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:43:49,279 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+WARNING 2018-03-20 15:43:49,280 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:43:49,282 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:44:00,559 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:44:00,563 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.004) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:44:00,568 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:44:00,569 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT VERSION(); args=None
+DEBUG 2018-03-20 15:44:00,829 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2018-03-20 15:44:00,832 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2018-03-20 15:44:05,790 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:44:05,793 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:44:05,795 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:44:05,799 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:44:10,780 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:44:10,782 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:44:10,782 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:44:10,783 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:44:15,796 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:44:15,802 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.004) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:44:15,802 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:44:15,805 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+DEBUG 2018-03-20 15:44:20,789 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-03-20 15:44:20,792 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_mailusers`.`id`, `sockalert_mailusers`.`mail`, `sockalert_mailusers`.`status` FROM `sockalert_mailusers`; args=()
+INFO 2018-03-20 15:44:20,793 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+DEBUG 2018-03-20 15:44:20,796 C:\Python27\lib\site-packages\django\db\backends\utils.py utils.py utils execute 90: (0.002) SELECT `sockalert_yx_api`.`id`, `sockalert_yx_api`.`url`, `sockalert_yx_api`.`crttime`, `sockalert_yx_api`.`data` FROM `sockalert_yx_api`; args=()
+INFO 2018-03-20 15:45:30,584 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+INFO 2018-03-20 15:45:35,584 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+INFO 2018-03-20 15:45:40,589 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+INFO 2018-03-20 15:45:45,589 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+INFO 2018-03-20 15:45:50,598 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+WARNING 2018-03-20 15:46:32,759 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+WARNING 2018-03-20 15:46:37,742 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+WARNING 2018-03-20 15:46:42,747 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+WARNING 2018-03-20 15:46:47,750 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+ERROR 2018-03-20 15:47:05,460 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+ERROR 2018-03-20 15:47:10,447 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+ERROR 2018-03-20 15:47:15,447 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 38: ['penghao@yixinghealth.com', 'test@yixinghealth.com']
+INFO 2018-03-20 15:53:07,586 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/ HTTP/1.1" 200 11186
+INFO 2018-03-20 15:53:07,733 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/base.css HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,736 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,736 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,737 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/js/base.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,739 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/datetime_widget.css HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,740 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,746 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/js/dashboard.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:07,746 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/img/logo-140x60.png HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,253 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/mailusers/ HTTP/1.1" 200 15201
+INFO 2018-03-20 15:53:11,273 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,280 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,296 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/core.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,303 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,305 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,309 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,312 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,312 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:11,316 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminjsi18n/ HTTP/1.1" 200 3217
+INFO 2018-03-20 15:53:13,282 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/ HTTP/1.1" 200 11186
+INFO 2018-03-20 15:53:15,165 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/yx_api/ HTTP/1.1" 200 14981
+INFO 2018-03-20 15:53:15,191 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminjsi18n/ HTTP/1.1" 200 3217
+INFO 2018-03-20 15:53:17,914 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/yx_api/add/ HTTP/1.1" 200 11731
+INFO 2018-03-20 15:53:17,943 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:17,944 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2018-03-20 15:53:17,950 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminjsi18n/ HTTP/1.1" 200 3217
+INFO 2018-03-20 15:53:36,276 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "POST /adminsockalert/yx_api/add/ HTTP/1.1" 302 0
+INFO 2018-03-20 15:53:36,372 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/yx_api/ HTTP/1.1" 200 16207
+INFO 2018-03-20 15:53:36,404 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminjsi18n/ HTTP/1.1" 200 3217
+ERROR 2018-03-20 15:56:09,368 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/web/his/index.htm's status_code is 200!
+ERROR 2018-03-20 15:56:09,822 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+ERROR 2018-03-20 15:59:10,316 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/web/his/index.htm's status_code is 200!
+ERROR 2018-03-20 15:59:10,700 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+ERROR 2018-03-20 15:59:29,582 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/web/his/index.htm's status_code is 200!
+ERROR 2018-03-20 15:59:29,950 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+ERROR 2018-03-20 15:59:58,586 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/web/his/index.htm's status_code is 200!
+ERROR 2018-03-20 15:59:58,994 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+ERROR 2018-03-20 16:01:29,499 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 59: https://hms.yixinghealth.com/web/his/index.htm's status_code is 200!
+ERROR 2018-03-20 16:01:29,841 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 63: 'NoneType' object is not callable
+ERROR 2018-03-20 16:03:38,119 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+ERROR 2018-03-20 16:03:57,446 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+INFO 2018-03-20 16:06:22,839 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/mailusers/ HTTP/1.1" 200 15201
+INFO 2018-03-20 16:06:22,861 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/base.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,867 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/datetime_widget.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,869 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,881 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,901 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,905 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,907 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/core.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,910 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,910 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,915 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminjsi18n/ HTTP/1.1" 200 3217
+INFO 2018-03-20 16:06:22,924 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,927 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,930 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,930 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/js/base.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:06:22,931 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/img/logo-140x60.png HTTP/1.1" 304 0
+ERROR 2018-03-20 16:45:54,753 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 72: https://hms.yixinghealth.com/aaa.html's status_code is 404!
+ERROR 2018-03-20 16:49:33,052 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 58: https://hms.yixinghealth.com/aaa.html's status_code is 404 for the first time
+ERROR 2018-03-20 16:49:35,151 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 67: https://hms.yixinghealth.com/aaa.html's status_code is 404 for the second time
+ERROR 2018-03-20 16:49:37,237 C:\Users\pyt\Desktop\pydevelop\py_1\projectone\sockalert\crontest.py crontest.py crontest getreqstatus 76: https://hms.yixinghealth.com/aaa.html's status_code is 404 for the third time
+INFO 2018-03-20 16:53:38,025 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminsockalert/mailusers/ HTTP/1.1" 200 15201
+INFO 2018-03-20 16:53:38,072 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,072 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/base.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,079 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/datetime_widget.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,082 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,088 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /adminjsi18n/ HTTP/1.1" 200 3217
+INFO 2018-03-20 16:53:38,096 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,102 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,105 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/core.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,111 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,111 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,115 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,119 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,121 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,122 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/js/base.js HTTP/1.1" 304 0
+INFO 2018-03-20 16:53:38,125 C:\Python27\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 124: "GET /sta/bootstrap_admin/img/logo-140x60.png HTTP/1.1" 304 0

@@ -37,7 +37,7 @@ sched = Scheduler()
 @sched.interval_schedule(seconds=30)
 def myctb():
     ctbtest()
-    # getreqstatus()
+    getreqstatus()
 
 
 sched.start()

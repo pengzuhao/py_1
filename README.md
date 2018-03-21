@@ -2,11 +2,11 @@
 # auth: pengzuhao
 # date: 2018.3.20
 
-# Ò»£¬ÏîÄ¿»·¾³
+# ä¸€ï¼Œé¡¹ç›®çŽ¯å¢ƒ
 centos7.4
 python2.7
 
-# ¶þ£¬ËùÐè°²×°Ä£¿é
+# äºŒï¼Œæ‰€éœ€å®‰è£…æ¨¡å—
 # 1.
 yum -y install python-pip gcc gcc-c++ mysql-devel python-devel
 # 2.
@@ -24,47 +24,35 @@ pip install apscheduler==2.1.2
 # 8.
 pip install pycrypto
 
-# Èý£¬ËùÐèÏµÍ³»·¾³±äÁ¿
-#
+# ä¸‰ï¼Œæ‰€éœ€ç³»ç»ŸçŽ¯å¢ƒå˜é‡
 export dbname=***
-#
 export dbhost=***
-#
 export dbport=***
-#
 export dbuser=***
-#
 export dbpwd=***
-#
 export keyone=***
-#
 export keytwo=***
-#
 export mailfromuser=***
-#
 export smtpserver=***
-#
 export smtpport=***
-#
 export smtppwd=***
-#
 export smtpadmin=***
 
-# ËÄ£¬Êý¾Ý¿â³õÊ¼»¯
-# 1£¬
+# å››ï¼Œæ•°æ®åº“åˆå§‹åŒ–
+# 1ï¼Œ
 python manage.py makemigrations
-ÊÇÔÚ¸ÃappÏÂ½¨Á¢ migrationsÄ¿Â¼£¬²¢¼ÇÂ¼ÏÂÄãËùÓÐµÄ¹ØÓÚmodes.pyµÄ¸Ä¶¯£¬
-µ«ÊÇÕâ¸ö¸Ä¶¯»¹Ã»ÓÐ×÷ÓÃµ½Êý¾Ý¿âÎÄ¼þ£¬Êý¾Ý¿âÃ»ÓÐÔö¼ÓÐÂµÄ±í
+æ˜¯åœ¨è¯¥appä¸‹å»ºç«‹ migrationsç›®å½•ï¼Œå¹¶è®°å½•ä¸‹ä½ æ‰€æœ‰çš„å…³äºŽmodes.pyçš„æ”¹åŠ¨ï¼Œ
+ä½†æ˜¯è¿™ä¸ªæ”¹åŠ¨è¿˜æ²¡æœ‰ä½œç”¨åˆ°æ•°æ®åº“æ–‡ä»¶ï¼Œæ•°æ®åº“æ²¡æœ‰å¢žåŠ æ–°çš„è¡¨
 # 2,
 python manage.py migrate
-Ö´ÐÐmigrate£¬ÕâÊ±ºò²ÅÕæµÄ°Ñ×÷ÓÃµ½Êý¾Ý¿âÎÄ¼þ£¬²úÉú¶ÔÓ¦µÄ±í
-python manage.py migrate --database=sockas Ö¸¶¨¶ÔÓ¦µÄ±í
-python manage.py migrate sockalert Ö¸¶¨¶ÔÓ¦ÏîÄ¿
-# 3£¬
-python manage.py flush Çå¿ÕÄ¬ÈÏ±í
-python manage.py flush --database=sockas Çå¿ÕÖ¸¶¨±í
+æ‰§è¡Œmigrateï¼Œè¿™æ—¶å€™æ‰çœŸçš„æŠŠä½œç”¨åˆ°æ•°æ®åº“æ–‡ä»¶ï¼Œäº§ç”Ÿå¯¹åº”çš„è¡¨
+python manage.py migrate --database=sockas æŒ‡å®šå¯¹åº”çš„è¡¨
+python manage.py migrate sockalert æŒ‡å®šå¯¹åº”é¡¹ç›®
+# 3ï¼Œ
+python manage.py flush æ¸…ç©ºé»˜è®¤è¡¨
+python manage.py flush --database=sockas æ¸…ç©ºæŒ‡å®šè¡¨
 
-# Îå£¬ÈÕÖ¾ÇÐ¸î
+# äº”ï¼Œæ—¥å¿—åˆ‡å‰²
 #
 cat >> /etc/logrotate.d/sockalert<<EOF
 $pjpath/projectone/logs/admin.log {
@@ -85,16 +73,16 @@ $pjpath/projectone/logs/admin.log {
 #
 service rsyslog restart
 
-# Áù£¬FAQ
+# å…­ï¼ŒFAQ
 # 1.
-±¨´íDatabase returned an invalid value in QuerySet.datetimes(). Are time zone definitions for your database and pytz installed?
-½â¾ö£º
-ÔÚÖÕ¶ËÊäÈëÒÔÏÂ´úÂë
+æŠ¥é”™Database returned an invalid value in QuerySet.datetimes(). Are time zone definitions for your database and pytz installed?
+è§£å†³ï¼š
+åœ¨ç»ˆç«¯è¾“å…¥ä»¥ä¸‹ä»£ç 
 mysql_tzinfo_to_sql?/usr/share/zoneinfo?|?mysql?-u root?-p mysql
-ÊäÈëmysqlÃÜÂë¼´¿É£¨×¢ÒâÉÏÃæÓï¾äÖÐµÄmysql²»ÊÇÃÜÂë£©
+è¾“å…¥mysqlå¯†ç å³å¯ï¼ˆæ³¨æ„ä¸Šé¢è¯­å¥ä¸­çš„mysqlä¸æ˜¯å¯†ç ï¼‰
 # 2.
-Ðè¿ªÆômysqlÑÏ¸ñÄ£Ê½
-vim /etc/my.cnf #Ìí¼Ó£º
+éœ€å¼€å¯mysqlä¸¥æ ¼æ¨¡å¼
+vim /etc/my.cnf #æ·»åŠ ï¼š
 [mysqld]
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 

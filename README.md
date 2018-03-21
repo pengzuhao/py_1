@@ -7,22 +7,14 @@ centos7.4
 python2.7
 
 # 二，所需安装模块
-# 1.
-yum -y install python-pip gcc gcc-c++ mysql-devel python-devel
-# 2.
-pip install --upgrade pip
-# 3.
-pip install django
-# 4.
-pip install bootstrap-admin
-# 5.
-pip install mysqlclient
-# 6.
-pip install django-crontab
-# 7.
-pip install apscheduler==2.1.2
-# 8.
-pip install pycrypto
+        yum -y install python-pip gcc gcc-c++ mysql-devel python-devel
+        pip install --upgrade pip
+        pip install django
+        pip install bootstrap-admin
+        pip install mysqlclient
+        pip install django-crontab
+        pip install apscheduler==2.1.2
+        pip install pycrypto
 
 # 三，所需系统环境变量
         export dbname=***

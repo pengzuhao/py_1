@@ -4,7 +4,7 @@
 
 # 一，项目环境
 centos7.4
-\＜br＞
+＜br＞
 python2.7
 
 # 二，所需安装模块
@@ -27,102 +27,102 @@ pip install pycrypto
 
 # 三，所需系统环境变量
 export dbname=***
-\＜br＞
+＜br＞
 export dbhost=***
-\＜br＞
+＜br＞
 export dbport=***
-\＜br＞
+＜br＞
 export dbuser=***
-\＜br＞
+＜br＞
 export dbpwd=***
-\＜br＞
+＜br＞
 export keyone=***
-\＜br＞
+＜br＞
 export keytwo=***
-\＜br＞
+＜br＞
 export mailfromuser=***
-\＜br＞
+＜br＞
 export smtpserver=***
-\＜br＞
+＜br＞
 export smtpport=***
-\＜br＞
+＜br＞
 export smtppwd=***
-\＜br＞
+＜br＞
 export smtpadmin=***
-\＜br＞
+＜br＞
 
 # 四，数据库初始化
 # 1，
 python manage.py makemigrations
-\＜br＞
+＜br＞
 是在该app下建立 migrations目录，并记录下你所有的关于modes.py的改动，
-\＜br＞
+＜br＞
 但是这个改动还没有作用到数据库文件，数据库没有增加新的表
 # 2,
 python manage.py migrate
-\＜br＞
+＜br＞
 执行migrate，这时候才真的把作用到数据库文件，产生对应的表
-\＜br＞
+＜br＞
 python manage.py migrate --database=sockas 指定对应的表
-\＜br＞
+＜br＞
 python manage.py migrate sockalert 指定对应项目
 # 3，
 python manage.py flush 清空默认表
-\＜br＞
+＜br＞
 python manage.py flush --database=sockas 清空指定表
 
 # 五，日志切割
 cat >> /etc/logrotate.d/sockalert<<EOF
-\＜br＞
+＜br＞
 $pjpath/projectone/logs/admin.log {
-\＜br＞
+＜br＞
     compress
-    \＜br＞
+    ＜br＞
     delaycompress
-    \＜br＞
+    ＜br＞
     missingok
-    \＜br＞
+    ＜br＞
     notifempty
-    \＜br＞
+    ＜br＞
     daily
-    \＜br＞
+    ＜br＞
     rotate 5
-    \＜br＞
+    ＜br＞
     size 1k
-    \＜br＞
+    ＜br＞
     olddir $pjpath/projectone/logs/
-    \＜br＞
+    ＜br＞
     dateext
-    \＜br＞
+    ＜br＞
     create 0644 root root
-    \＜br＞
+    ＜br＞
     postrotate
-    \＜br＞
+    ＜br＞
  	    source /etc/profile &>/dev/null  && sh  $pjpath/restart.sh && cd /devops_1/projectone && nohup /usr/bin/python manage.py runserver 0.0.0.0:80 &
- 	    \＜br＞
+ 	    ＜br＞
         endscript
-        \＜br＞
+        ＜br＞
 }
-\＜br＞
+＜br＞
 service rsyslog restart
 
 # 六，FAQ
 # 1.
 报错Database returned an invalid value in QuerySet.datetimes(). Are time zone definitions for your database and pytz installed?
-\＜br＞
+＜br＞
 解决：
-\＜br＞
+＜br＞
 在终端输入以下代码
-\＜br＞
+＜br＞
 mysql_tzinfo_to_sql?/usr/share/zoneinfo?|?mysql?-u root?-p mysql
-\＜br＞
+＜br＞
 输入mysql密码即可（注意上面语句中的mysql不是密码）
-\＜br＞
+＜br＞
 # 2.
 需开启mysql严格模式
-\＜br＞
+＜br＞
 vim /etc/my.cnf #添加：
-\＜br＞
+＜br＞
 [mysqld]
-\＜br＞
+＜br＞
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES

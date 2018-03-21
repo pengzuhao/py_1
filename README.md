@@ -52,7 +52,27 @@ python manage.py migrate sockalert 指定对应项目
 python manage.py flush 清空默认表
 python manage.py flush --database=sockas 清空指定表
 
-五，FAQ
+五，日志切割
+cat >> /etc/logrotate.d/sockalert<<EOF
+$pjpath/projectone/logs/admin.log {
+    compress
+    delaycompress
+    missingok
+    notifempty
+    daily
+    rotate 5
+    size 1k
+    olddir $pjpath/projectone/logs/
+    dateext
+    create 0644 root root
+    postrotate
+ 	    source /etc/profile &>/dev/null  && sh  $pjpath/restart.sh && cd /devops_1/projectone && nohup /usr/bin/python manage.py runserver 0.0.0.0:80 &
+        endscript
+
+}
+service rsyslog restart
+
+六，FAQ
 1.
 报错Database returned an invalid value in QuerySet.datetimes(). Are time zone definitions for your database and pytz installed?
 解决：
@@ -64,3 +84,4 @@ mysql_tzinfo_to_sql?/usr/share/zoneinfo?|?mysql?-u root?-p mysql
 vim /etc/my.cnf #添加：
 [mysqld]
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+

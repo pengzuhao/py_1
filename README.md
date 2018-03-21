@@ -26,30 +26,18 @@ pip install apscheduler==2.1.2
 pip install pycrypto
 
 # 三，所需系统环境变量
-export dbname=***
-＜br＞
-export dbhost=***
-＜br＞
-export dbport=***
-＜br＞
-export dbuser=***
-＜br＞
-export dbpwd=***
-＜br＞
-export keyone=***
-＜br＞
-export keytwo=***
-＜br＞
-export mailfromuser=***
-＜br＞
-export smtpserver=***
-＜br＞
-export smtpport=***
-＜br＞
-export smtppwd=***
-＜br＞
-export smtpadmin=***
-＜br＞
+export dbname=***＜br＞
+export dbhost=***＜br＞
+export dbport=***＜br＞
+export dbuser=***＜br＞
+export dbpwd=***＜br＞
+export keyone=***＜br＞
+export keytwo=***＜br＞
+export mailfromuser=***＜br＞
+export smtpserver=***＜br＞
+export smtpport=***＜br＞
+export smtppwd=***＜br＞
+export smtpadmin=***＜br＞
 
 # 四，数据库初始化
 # 1，

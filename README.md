@@ -52,8 +52,8 @@ python2.7
             missingok
             notifempty
             daily
-            rotate 5
-            size 1k
+            rotate 30
+            size 10M
             olddir $pjpath/projectone/logs/
             dateext
             create 0644 root root

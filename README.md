@@ -1,6 +1,6 @@
-# SockAlert
-### auth: pyt
-### date: 2018.3.20
+* SockAlert
+* auth: `pyt`
+* date: 2018.3.20
 
 # 一，项目环境
 centos7.4

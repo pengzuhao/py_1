@@ -83,4 +83,3 @@ mysql_tzinfo_to_sql?/usr/share/zoneinfo?|?mysql?-u root?-p mysql£¼/br£¾
 vim /etc/my.cnf #Ìí¼Ó£º£¼/br£¾
 [mysqld]£¼/br£¾
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
-

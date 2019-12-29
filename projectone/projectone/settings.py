@@ -112,8 +112,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'appone',
-    'apptwo',
     'sockalert',
 ]
 
@@ -178,8 +176,6 @@ DATABASES = {
 DATABASE_ROUTERS = ['projectone.database_router.DatabaseAppsRouter']
 
 DATABASE_APPS_MAPPING = {
-    'appone': 'default',
-    'apptwo': 'twodb',
     'sockalert': 'sockas'
 }
 
